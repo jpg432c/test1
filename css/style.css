@@ -1,0 +1,242 @@
+@charset "UTF-8"
+
+html{
+    font-size: 100%;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-width: 100%;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 頂層導覽介面 */
+.page-header{
+    display:flex;
+    justify-content:space-around;
+    height: 30px;
+    align-items: flex-start;
+}
+/* 左側icon */
+.top-left{
+    display:flex;
+    width: 800px;
+    height: 50px;
+    align-items: center;
+    margin-top: 0px;
+}
+.tel{
+    width: 30px;
+    height: 30px;
+    font-size: 1.25rem;
+    Tel.icon margin-top: 10px;
+}
+/* 右側icon */
+.other-nav{
+    display:  flex;
+    justify-content: space-between;
+    width: 150px;
+    height: 50px;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.other-nav li{
+    list-style-type:none;
+    width: 30px;
+    height: 30px;
+}
+
+.top-right{
+    width: 300px;
+    height: 50px;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 主要導覽介面 */
+.navpage{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+}
+/* 商標 */
+.verso{
+    align-items: center;
+    
+}
+.logoplace{
+    display:flex;
+    align-items: center;
+    height: 30px;
+    width: 400px;
+}
+.logo{
+    width: 30px;
+    height: 30px;
+    margin-top: 14px;
+    align-items: center;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 導覽列表 */
+.main-nav{
+    display:  flex;
+    justify-content: space-around;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    align-items: center;
+    width: 600px;
+    margin-top: 34px;
+    list-style: none;
+}
+.searchicon{
+    width: 30px;
+    height: 20px;
+}
+.main-nav li{
+    
+    margin: right 36px;
+}
+.main-nav a{
+    color:gray;
+}
+.main-nav a:hover{
+    color: #0bd;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 宣傳文章 */
+.identity{
+    list-style: none;
+    margin-right: 60%;
+    margin-top: 3%;
+    align-self:center;
+    height: 40px;
+}
+.identity li{
+    height: 20px;
+    text-align: right;
+}
+.color-gray{
+    color: #ac8f8f;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 主頁背景影像 */
+.big-bg{
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+#home{
+    background-image: url(../img/background.jpg);
+    min-height: 50vh;
+}
+#home .page-title{
+    text-transform: none;
+}
+.article-background{
+    height: 800px ;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: oldlace;
+}
+/* ------------------------------------------------------------------------------------ */
+/*服務介紹 */
+.logo-large{
+    width: 300px;
+    height: 200px;
+}
+.link-logo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start
+}
+.link-right{
+    margin-top: 15%;
+    width: 250px;
+    height: 70px;
+    border-right:solid midnightblue;
+}
+
+.board-text li{
+    height: 0px;
+    width: 200px;
+    text-align: right;
+}
+/*服務圖片*/
+.services-grid{
+    display: grid;
+    gap: 26px;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 800px;
+    height: 200px;
+    margin-top: 5%;
+    margin-bottom:50px;
+}
+.background{
+    height: 250px;
+    width: 200px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-color: mistyrose;
+}
+.photo-size{
+    vertical-align: :middle;
+    width: 50px;
+    height: 50px;
+}
+.services-page{
+    height: 100px;
+}
+.middle{
+    text-align: center;
+    line-height:20px;
+    margin:auto;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 客戶感言 */
+.aside{
+    display: flex;
+    justify-content:center;
+    background-size: 1600px 450px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url(../img/aside-pink.jpeg);
+}
+.aside-background{
+    
+
+    
+}
+.client-background{
+    display: grid;
+    margin-top: 35px;
+    margin-left:30px;
+    width: 800px;
+    height: 450px;
+    background-color: lightpink;
+}
+/* ------------------------------------------------------------------------------------ */
+/* 總部位置Protfolio */
+.big-box img{
+    height: 60%;
+}
+
+.big-box1{
+    grid-column: 2/2;
+    grid-row: 1/2;
+}
+.big-box2{
+
+}
+.big-box3{
+
+}
